@@ -3,3 +3,8 @@
   tasks: #list of tasks/modules/collections
   - name: pinging the server
     ansible.builtin.ping:
+- nanme: i need to print a message 
+  tasks: install git
+  yum: git install -y
+
+
